@@ -29,3 +29,10 @@ font-family: 'Lobster', cursive;
 .content {
     background-color: #C9C7C7;
 }
+
+#socialLogo {
+    height: 65px;
+    width: 65px;
+    padding-right: 5px;
+    
+}
