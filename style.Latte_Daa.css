@@ -1,0 +1,33 @@
+#logo{
+    height: 80px;
+    width: 80px;
+    /*position: absolute;
+    float: left;*/
+}
+
+.titleLatteDaa {
+    font-family: 'Lobster', cursive;
+    /*text-align: center;*/
+    margin-top: 10px;
+    font-size: 350%;
+    /*position:absolute;
+float: right;*/
+
+}
+.nav-link {
+    /*background-color: lightcoral;*/
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 130%;
+}
+.dropdown-item{
+font-family: 'Lobster', cursive;
+}
+
+.navbar-custom {
+ background-color: lightcoral;   
+}
+
+.content {
+    background-color: #C9C7C7;
+}
