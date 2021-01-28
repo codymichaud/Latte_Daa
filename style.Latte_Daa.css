@@ -36,3 +36,16 @@ font-family: 'Lobster', cursive;
     padding-right: 5px;
     
 }
+
+.nav-link:hover{
+    color: lightgray;
+}
+
+.carouselPic {
+    height: 1000px;
+}
+
+#coffeeCarousel {
+    width: 1000px;
+margin-top: 25px;
+}
