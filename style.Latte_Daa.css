@@ -6,16 +6,14 @@
 }
 
 .titleLatteDaa {
-    font-family: 'Lobster', cursive;
-    /*text-align: center;*/
+    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Yellowtail', cursive;*/
+    /*font-family: 'Niconne', cursive;*/
+    font-family: 'Pacifico', cursive;
     margin-top: 10px;
     font-size: 350%;
-    /*position:absolute;
-float: right;*/
-
 }
 .nav-link {
-    /*background-color: lightcoral;*/
     color: black;
     font-family: 'Lobster', cursive;
     font-size: 130%;
