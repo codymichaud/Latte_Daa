@@ -42,10 +42,45 @@ font-family: 'Lobster', cursive;
 }
 
 .carouselPic {
-    height: 1000px;
+    height: 900px;
 }
 
 #coffeeCarousel {
-    width: 1000px;
+    width: 900px;
 margin-top: 25px;
+}
+
+.contactInput {
+    font-family: 'Lobster', cursive;
+margin-top: 45px;
+}
+
+#buttonContact {
+background-color: lightcoral;
+border-radius: 10px;
+}
+
+.coffeeFooter {
+    background-color: darkgray;
+    height: 40px;
+    padding-bottom: 0px;
+      position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#github{
+ width: 30px;
+ height: 30px;
+ margin-top: 5px;
+}
+
+#content-wrap {
+    padding-bottom: 40px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    
 }
