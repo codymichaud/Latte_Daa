@@ -4,7 +4,9 @@
     /*position: absolute;
     float: left;*/
 }
-
+#font {
+    font-family: 'Lobster', cursive;
+}
 .titleLatteDaa {
     /*font-family: 'Lobster', cursive;*/
     /*font-family: 'Yellowtail', cursive;*/
@@ -15,11 +17,7 @@
 }
 .nav-link {
     color: black;
-    font-family: 'Lobster', cursive;
     font-size: 130%;
-}
-.dropdown-item{
-font-family: 'Lobster', cursive;
 }
 
 .navbar-custom {
@@ -34,8 +32,7 @@ font-family: 'Lobster', cursive;
     height: 65px;
     width: 65px;
     padding-right: 5px;
-    
-}
+    }
 
 .nav-link:hover{
     color: lightgray;
@@ -51,7 +48,6 @@ margin-top: 25px;
 }
 
 .contactInput {
-    font-family: 'Lobster', cursive;
 margin-top: 45px;
 }
 
@@ -81,6 +77,20 @@ border-radius: 10px;
 
 #page-container {
     position: relative;
-    min-height: 100vh;
-    
+    min-height: 100vh;   
+}
+
+.delivery {
+    padding: 15px;
+    margin: 15px;
+    font-size: 200%;
+}
+.arrowDown {
+    height: 100px;
+    width: 100px;
+float: right;
+margin-right: 150px;
+transform: scaleY(-1);
+position:relative;
+margin-top: 0px;
 }
