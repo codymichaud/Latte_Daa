@@ -114,18 +114,18 @@ color: black;
             max-width: 786px;
         }
     /* Resized main-content to fit 786px  */
-    #container {
+    .content {
         position: absolute;
         
     }
 
-        #goBack {
+        .titleLatteDaa {
             
             position: relative;
             text-align: center;
         }
 
-        #clear {
+        #content-wrap {
             
             position: relative;
             text-align: center;
