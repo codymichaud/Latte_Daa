@@ -110,40 +110,205 @@ color: black;
 
 @media screen and (max-width: 786px) {
     /* Resized content to fit 786px  */
-        body {
-            max-width: 786px;
-        }
-    /* Resized main-content to fit 786px  */
-    .content {
-        position: absolute;
-        
+     #logo{
+    height: 80px;
+    width: 80px;
+    /*position: absolute;
+    float: left;*/
+}
+#font {
+    font-family: 'Lobster', cursive;
+}
+.titleLatteDaa {
+    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Yellowtail', cursive;*/
+    /*font-family: 'Niconne', cursive;*/
+    font-family: 'Pacifico', cursive;
+    margin-top: 10px;
+    font-size: 350%;
+}
+.nav-link {
+    color: black;
+    font-size: 130%;
+}
+
+.navbar-custom {
+ background-color: lightcoral;   
+}
+
+.content {
+    background-color: #C9C7C7;
+}
+
+#socialLogo {
+    height: 65px;
+    width: 65px;
+    padding-right: 5px;
     }
 
-        .titleLatteDaa {
-            
-            position: relative;
-            text-align: center;
-        }
+.nav-link:hover{
+    color: lightgray;
+}
 
-        #content-wrap {
-            
-            position: relative;
-            text-align: center;
-            
-        }
+.carouselPic {
+    height: 725px;
+}
+
+#coffeeCarousel {
+    width: 725px;
+margin-top: 25px;
+}
+
+.contactInput {
+margin-top: 45px;
+}
+
+#buttonContact {
+background-color: lightcoral;
+border-radius: 10px;
+}
+
+.coffeeFooter {
+    background-color: darkgray;
+    height: 40px;
+    padding-bottom: 0px;
+      position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#github{
+ width: 30px;
+ height: 30px;
+ margin-top: 5px;
+}
+
+#content-wrap {
+    padding-bottom: 40px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;   
+}
+
+.delivery {
+    padding: 15px;
+    margin: 15px;
+    font-size: 200%;
+}
+.arrowDown {
+    height: 100px;
+    width: 100px;
+float: right;
+margin-right: 150px;
+transform: scaleY(-1);
+position:relative;
+margin-top: 0px;
+}
+
     }
         
     /* A Media Query max-width: 640px */
     @media screen and (max-width: 640px) {
      /* Resized content to fit 640px  */
-     body {
-            min-width: 640px;
-        }
-    /* Resized main-content to fit 640px  */
-    #container{
-        position: absolute;
-        
+   #logo{
+    height: 80px;
+    width: 80px;
+    /*position: absolute;
+    float: left;*/
+}
+#font {
+    font-family: 'Lobster', cursive;
+}
+.titleLatteDaa {
+    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Yellowtail', cursive;*/
+    /*font-family: 'Niconne', cursive;*/
+    font-family: 'Pacifico', cursive;
+    margin-top: 10px;
+    font-size: 350%;
+}
+.nav-link {
+    color: black;
+    font-size: 130%;
+}
+
+.navbar-custom {
+ background-color: lightcoral;   
+}
+
+.content {
+    background-color: #C9C7C7;
+}
+
+#socialLogo {
+    height: 65px;
+    width: 65px;
+    padding-right: 5px;
     }
+
+.nav-link:hover{
+    color: lightgray;
+}
+
+.carouselPic {
+    height: 725px;
+}
+
+#coffeeCarousel {
+    width: 725px;
+margin-top: 25px;
+}
+
+.contactInput {
+margin-top: 45px;
+}
+
+#buttonContact {
+background-color: lightcoral;
+border-radius: 10px;
+}
+
+.coffeeFooter {
+    background-color: darkgray;
+    height: 40px;
+    padding-bottom: 0px;
+      position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#github{
+ width: 30px;
+ height: 30px;
+ margin-top: 5px;
+}
+
+#content-wrap {
+    padding-bottom: 40px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;   
+}
+
+.delivery {
+    padding: 15px;
+    margin: 15px;
+    font-size: 200%;
+}
+.arrowDown {
+    height: 100px;
+    width: 100px;
+float: right;
+margin-right: 150px;
+transform: scaleY(-1);
+position:relative;
+margin-top: 0px;
+}
+
       
 
      
