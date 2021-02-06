@@ -1,6 +1,7 @@
 #logo{
     height: 80px;
     width: 80px;
+    
     /*position: absolute;
     float: left;*/
 }
@@ -85,15 +86,7 @@ border-radius: 10px;
     margin: 15px;
     font-size: 200%;
 }
-.arrowDown {
-    height: 100px;
-    width: 100px;
-float: right;
-margin-right: 150px;
-transform: scaleY(-1);
-position:relative;
-margin-top: 0px;
-}
+
 
 .doordash{
 color: black;
@@ -118,3 +111,4 @@ color: black;
     width: 287px;
     
 }
+
