@@ -112,3 +112,69 @@ color: black;
     
 }
 
+#menuContainer {
+    border: black 1px solid;
+}
+
+.popTitle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.popItem {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.popItemDesc {
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.foodTitle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.foodItemDesc {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.foodItem {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.snacksTitle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.snackItem{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.classicsTitle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.classicsDesc {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.classicsItem {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.classicsItemDesc {
+    font-size: 13px;
+}
+
+footer {
+    position: fixed;
+}
