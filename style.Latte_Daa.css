@@ -226,6 +226,16 @@ color: black;
     font-size: 18px;
 }
 
+.forKidsTitle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.forKidsItems {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 footer {
     position: absolute;
     width: 100%;
