@@ -13,7 +13,7 @@
     /*font-family: 'Yellowtail', cursive;*/
     /*font-family: 'Niconne', cursive;*/
     font-family: 'Pacifico', cursive;
-    margin-top: 10px;
+    
     font-size: 350%;
 }
 .nav-link {
@@ -156,6 +156,7 @@ color: black;
 .snacksTitle {
     font-weight: 800;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .snackItem{
@@ -201,13 +202,33 @@ color: black;
     font-size: 13px;
 }
 
-.sigItemsCont {
-    /*float: right;*/
-    
+.energyItemsCont {
+    margin-top: 10px;
+}
+
+.energyTitle {
+    font-weight: 800; 
+    font-size: 20px;
+}
+
+.energyItems {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nonCoffeeTitle {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nonCoffeeItems {
+    font-weight: 600;
+    font-size: 18px;
 }
 
 footer {
     position: absolute;
+    width: 100%;
 }
 
 
