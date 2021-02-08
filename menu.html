@@ -68,10 +68,13 @@ home: functional nav bar that directs user to all pages. nav bar should also inl
             </div>
         </nav>
         <div id="content-wrap">
-
-            <h5 id="font" class="delivery">Want it delivered? Check us out on <a id="font" class="doordash"
-                    href="https://www.doordash.com/store/latte-daa-spokane-930443/en-US">DoorDash!!</a></h5>
-
+            <div class="doorDashCont container-fluid row">
+                <h5 id="font" class="delivery">Want it delivered? Scan the QR code or click on Doordash to order
+                    delivery!
+                </h5>
+                <img src="https://qrtag.net/api/qr_transparent_6.svg?url=https://www.doordash.com/store/latte-daa-spokane-930443/en-US"
+                    alt="qrtag" class="doordashQR">
+            </div>
             <div id="menuContainer" class="col-md-12">
                 <div class="row">
                     <div class="popItemCont col-md-3">
@@ -128,7 +131,7 @@ home: functional nav bar that directs user to all pages. nav bar should also inl
                     </div>
                     <div class="classicsItemsCont col-md-3">
                         <h4 class="classicsTitle">Classics</h4>
-                        <p class="classicsDesc">12 / 16 / 20oz are double shots and 24 / 32oz are quad shots</p>
+                        <p class="classicsDesc">12/16/20oz double shots. 24/32oz quad shots</p>
                         <ul class="classicsList">
                             <li class="classicsItem">Latte</li>
                             <p class="classicsItemDesc">Choose your size and style!</p>
@@ -142,10 +145,23 @@ home: functional nav bar that directs user to all pages. nav bar should also inl
                     </div>
 
                 </div>
-                <div class="sigItemsCont">
+                <div class="sigItemsCont col-md-2">
                     <h4 class="sigTitle">Signature Items</h4>
                     <p class="sigDesc">Some local favorites from Latte' Daa</p>
+                    <ul class="sigList">
+                        <li class="sigItem">Frosted Oreo</li>
+                        <p class="sigIemDesc">Our Signature Vanilla Mocha</p>
+                        <li class="sigItem">Shark Tank</li>
+                        <p class="sigItemDesc">Blended Blue Lotus, coconut, lime and pomeganate.</p>
+                        <li class="sigItem">Spark Italian Soda</li>
+                        <p class="sigItemDesc">Advocare Spark Italian Soda</p>
+                        <li class="sigItem">The Barbie</li>
+                        <p class="sigItemDesc">Pink Lotus with Monin White Peach & Watermelon.</p>
+                        <li class="sigItem">Salted Carmallow</li>
+                        <p class="sigItemDesc">Your favorite candied coffee with sea salt caramel on top!</p>
+                    </ul>
                 </div>
+
             </div>
         </div>
     </div>

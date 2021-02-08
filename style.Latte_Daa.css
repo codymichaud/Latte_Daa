@@ -109,7 +109,14 @@ color: black;
 #aboutMePic {
     height: 380px;
     width: 287px;
-    
+}
+
+.doordashQR {
+    height: 80px;
+    width: 80px;
+    float: right;
+    padding-top: 5px;
+    margin-left: 5px;
 }
 
 #menuContainer {
@@ -175,6 +182,41 @@ color: black;
     font-size: 13px;
 }
 
-footer {
-    position: fixed;
+.sigTitle {
+    font-weight: 800;
+    font-size: 20px;
 }
+
+.sigDesc {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sigItem {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sigItemDesc {
+    font-size: 13px;
+}
+
+.sigItemsCont {
+    /*float: right;*/
+    
+}
+
+footer {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
