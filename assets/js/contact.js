@@ -6,7 +6,8 @@
 // allow users to delete items from cart
 // have cart total at bottom of page
 // allow users to edit items
-//
+//allow user to click left or right on pictures
+
 
 
 var submitBtn = document.getElementById("buttonContact")
@@ -31,6 +32,9 @@ function validate_form() {
         alert("Thank you for contacting Latte' Daa. We will reach out shortly.")
     };
 };
+
+
+
 
 
 

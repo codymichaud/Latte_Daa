@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latte' Daa</title>
-    <link rel="stylesheet" href="./assets/css/style.Latte_Daa.css">
+    <title>Leave us a Review!!</title>
+    <link rel="stylesheet" href="./public/assets/css/style.Latte_Daa.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,7 +18,7 @@
 <body class="content">
     <div id="page-container">
         <nav class="navbar navbar-expand-lg navbar-custom">
-            <a href="./index.html" class="navbar-brand"><img src="./assets/imgs/Latte_dayimg.png" alt="Latte Daa"
+            <a href="./index.html" class="navbar-brand"><img src="./public/assets/imgs/Latte_dayimg.png" alt="Latte Daa"
                     id="logo" class="float-left"></a>
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -50,9 +50,9 @@
                 </div>
 
                 <a href="https://www.instagram.com/lattedaaspokane/?hl=en" target="_blank"><img id="socialLogo"
-                        src="./assets/imgs/insta_logo.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/emilyslattedaa/" target="_blank"><img src="./assets/imgs/facebook.png"
-                        alt="Facebook" id="socialLogo"></a>
+                        src="./public/assets/imgs/insta_logo.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/emilyslattedaa/" target="_blank"><img
+                        src="./public/assets/imgs/facebook.png" alt="Facebook" id="socialLogo"></a>
 
                 <!--<form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -61,8 +61,7 @@
             </div>
         </nav>
         <div id="content-wrap">
-            <form id="font" class="container container-fluid contactInput" name="contact_form"
-                onsubmit="return validate_form();">
+            <form id="font" class="container container-fluid contactInput">
                 <div class="form-group">
                     <label for="emailInput">Email address</label>
                     <input name="contact_email" type="email" class="form-control" id="inputEmail"
@@ -74,17 +73,17 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Reason for contacting us</label>
-                    <input type="text" name="contact_reason" class="form-control" id="contactReason"
+                    <label for="exampleFormControlTextarea1">Tell us about your experience!!</label>
+                    <input type="text" name="contact_reason" class="form-control" id="reviewStr"
                         placeholder="Why are you contacting us today?">
 
                 </div>
-                <button type="submit" name="send" id="buttonContact" class="btn container-fluid">Submit</button>
+                <button type="submit" name="send" id="submitBtn" class="btn container-fluid">Submit</button>
             </form>
         </div>
     </div>
     <footer class="coffeeFooter container-fluid container col-12 text-center" id="footer"><a
-            href="https://github.com/codymichaud" target="_blank"><img id="github" src="./assets/imgs/github.png"
+            href="https://github.com/codymichaud" target="_blank"><img id="github" src="./public/assets/imgs/github.png"
                 alt="github"></a>
     </footer>
 
@@ -95,6 +94,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
-<script src="./assets/js/contact.js"></script>
+<script src="./public/assets/js/reviews.js"></script>
 
 </html>
